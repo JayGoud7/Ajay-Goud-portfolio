@@ -104,7 +104,7 @@ const tl = gsap.timeline({
         </div>
       </div>
       <div className='aboutdiv1 flex flex-col items-center md:flex-row md:justify-around w-full h-full bg-[#0E090E]'>
-      <div className='cir1 md:w-[20vw] w-[180px] h-[250px] p-[2px] bg-[#0E090E] border-[#FFA36B] border-2 md:h-[20vw] rounded-full'>
+      <div className='cir1 md:w-[20vw] w-[185px] h-[250px] p-[2px] bg-[#0E090E] border-[#FFA36B] border-2 md:h-[20vw] rounded-full'>
           <div className='cir1 circle w-full h-full rounded-full bg-gradient-to-r from-[#FB4765] to-[#FFA36B]'>
           </div>
         </div>
