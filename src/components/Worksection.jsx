@@ -1,17 +1,20 @@
 import gsap from 'gsap';
 import React, { useLayoutEffect, useState } from 'react';
 import { FaArrowDownLong } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const obj = [
     {
         id: 1,
         name: 'IMDB clone',
         img: 'https://port-folio-v3.vercel.app/static/media/img2.a41e4e217ad9cadf5c83.png',
+        link:'https://rentalcom.netlify.app/'
     },
     {
         id: 2,
         name: 'Rental.com',
         img: 'https://port-folio-v3.vercel.app/static/media/img.076bbb8766fd657835d2.png',
+        link:'https://imdbcl.netlify.app/',
     },
     // {
     //     id: 3,
@@ -72,7 +75,9 @@ return () => context.revert()
             <div className='flex border-t-[0.02vw] w-full flex-col mt-[3vw] relative'>
                 {
                     display.map((e) => (
-                        <div 
+                        <Link 
+                            to={e.link}
+                            target='_blank'
                             onMouseEnter={(ev) => mouseenter(ev, e.id)} 
                             onMouseLeave={mouseLeave} 
                             key={e.id} 
@@ -92,7 +97,7 @@ return () => context.revert()
                                     </div>
                                 )
                             }
-                        </div>
+                        </Link>
                     ))
                 }
             </div>
