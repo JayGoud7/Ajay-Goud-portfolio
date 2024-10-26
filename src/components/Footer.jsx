@@ -59,9 +59,9 @@ const Section2 = () => {
         <h1 className='md:text-[3vw] text-[2.5vw] font-[200] txtani4'>ajaygoud057@gmail.com</h1>
         <ul className='flex md:gap-20 gap-3 md:mt-7 font-[200] txtani4'>
 
-         <Link to={'https://www.linkedin.com/in/ajay-burra-ba040b322/'}> <li className='flex items-center gap-1 md:gap-2 md:text-[1.6vw] text-[2.5vw]'><span className='blink2 w-[0.7vw] h-[0.7vw] bg-[#FB4466] rounded-full'></span> Linkedin</li></Link>
+         <Link target='_blank' to={'https://www.linkedin.com/in/ajay-burra-ba040b322/'}> <li className='flex items-center gap-1 md:gap-2 md:text-[1.6vw] text-[2.5vw]'><span className='blink2 w-[0.7vw] h-[0.7vw] bg-[#FB4466] rounded-full'></span> Linkedin</li></Link>
 
-         <Link to={'https://github.com/JayGoud7'}> <li className='flex items-center gap-1 md:gap-2 md:text-[1.6vw] text-[2.5vw]'><span className='blink2 w-[0.7vw] h-[0.7vw] bg-[#FB4466] rounded-full'></span> GitHub</li></Link>
+         <Link target='_blank' to={'https://github.com/JayGoud7'}> <li className='flex items-center gap-1 md:gap-2 md:text-[1.6vw] text-[2.5vw]'><span className='blink2 w-[0.7vw] h-[0.7vw] bg-[#FB4466] rounded-full'></span> GitHub</li></Link>
 
           <li className='flex items-center gap-1 md:gap-2 md:text-[1.6vw] text-[2.5vw]'><span className='blink2 w-[0.7vw] h-[0.7vw] bg-[#FB4466] rounded-full'></span> Download CV</li>
         </ul>
