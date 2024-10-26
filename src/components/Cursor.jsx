@@ -41,7 +41,7 @@ function Cursor() {
 
   return (
     <div className="custom-cursor fixed top-0 left-0 width-[20px] height-[20px] rounded-full pointer-events-none z-9999 mix-blend-difference p-[10px] flex justify-center items-center border bg-white">
-      <span className="cursor-text text-[5px] h-[5px] font-[600] leading-[1px] hidden">View</span>
+      <span className="cursor-text text-[7px] font-[600] leading-[1px] hidden">View</span>
     </div>
   );
 }
