@@ -106,16 +106,16 @@ const About = () => {
           <p className="flow1 w-full h-[5vw] bg-white">.</p>
         </div>
       </div>
-      <div className="aboutdiv1 flex flex-col items-center md:flex-row md:justify-around w-full h-full bg-[#0E090E]">
-        <div className="cir1 md:w-[20vw] w-[185px] h-[250px] p-[2px] bg-[#0E090E] border-[#FFA36B] border-2 md:h-[20vw] rounded-full">
+      <div className="aboutdiv1 flex flex-col items-center justify-around md:flex-row md:justify-around w-full  bg-[#0E090E] py-5">
+        <div className="cir1 md:w-[20vw] md:h-[20vw] w-[185px] h-[185px] p-[2px] bg-[#0E090E] border-[#FFA36B] border-2 rounded-full">
           <div className="cir1 circle w-full h-full rounded-full bg-gradient-to-r from-[#FB4765] to-[#FFA36B]"></div>
         </div>
-        <div className="md:max-w-[40vw] w-[80vw] flex md:gap-4 flex-col justify-around ">
-          <h2 className="md:text-[4vw] md:text-start text-center text-[6vw] leading-[8vw] md:leading-[4.2vw] font-[200] md:font-[200] textani6">
+        <div className="md:max-w-[40vw] w-[80vw] flex gap-2 md:gap-4 pt-4 flex-col justify-around">
+          <h2 className="md:text-[4vw] text-start md:text-start text-center text-[6vw] leading-[8vw] md:leading-[4.2vw] font-[200] md:font-[200] textani6">
             I create engaging digital experiences by merging{" "}
             <span className="font-[800]">design</span>,{" "}
             <span className="font-[800]">motion</span>, and{" "}
-            <span className="font-[800]">development</span>.
+            <span className="font-[800]">development</span>
           </h2>
           <p className="md:text-[1.8vw] text-[4vw] font-[200] textani6">
             Passionate and detail-oriented web developer with a strong

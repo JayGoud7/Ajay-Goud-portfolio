@@ -99,8 +99,8 @@ return () => context.revert()
 })
 
   return (
-    <section className='herodiv w-full h-screen flex flex-col justify-around items-center text-white sm:justify-around md:flex-row pb-20'>
-        <div className='md:text-right text-center sm:text-center sep'>
+    <section className='herodiv w-full h-full flex flex-col justify-around items-center text-white sm:justify-around md:flex-row pb-20'>
+        <div className='md:text-right text-center sm:text-center sep gap-2 md:flex md:flex-col'>
             <h1 className='md:text-5xl text-xl textani'>Ajay Burra</h1>
             <p className='textani text-md sm:text-xl'>Based in Hyd,Tel</p>
             <p className='flex textani'>
