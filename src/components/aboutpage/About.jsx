@@ -100,7 +100,7 @@ const About = () => {
 
   return (
     <section className="w-full h-screen text-white">
-      <div className="w-full relative h-[90vh] flex items-center flex-col justify-center text-[5vw] font-[500]">
+      <div className="w-full relative h-[90%] flex items-center flex-col justify-center text-[5vw] font-[500]">
         <h1 className="textani5">Frontend Developer & Freelancer</h1>
         <div className="w-[0.2vw] h-[15vw] bg-slate-800 absolute top-[65%] overflow-hidden">
           <p className="flow1 w-full h-[5vw] bg-white">.</p>
@@ -110,14 +110,14 @@ const About = () => {
         <div className="cir1 md:w-[20vw] w-[185px] h-[250px] p-[2px] bg-[#0E090E] border-[#FFA36B] border-2 md:h-[20vw] rounded-full">
           <div className="cir1 circle w-full h-full rounded-full bg-gradient-to-r from-[#FB4765] to-[#FFA36B]"></div>
         </div>
-        <div className="md:max-w-[40vw] w-[80vw] h-full flex flex-col justify-around ">
+        <div className="md:max-w-[40vw] w-[80vw] flex md:gap-4 flex-col justify-around ">
           <h2 className="md:text-[4vw] md:text-start text-center text-[6vw] leading-[8vw] md:leading-[4.2vw] font-[200] md:font-[200] textani6">
             I create engaging digital experiences by merging{" "}
             <span className="font-[800]">design</span>,{" "}
             <span className="font-[800]">motion</span>, and{" "}
             <span className="font-[800]">development</span>.
           </h2>
-          <p className="md:text-[2vw] text-[4vw] font-[200] textani6">
+          <p className="md:text-[1.8vw] text-[4vw] font-[200] textani6">
             Passionate and detail-oriented web developer with a strong
             background in creating responsive, user-centered applications.
             Proven ability to enhance user satisfaction and engagement through
