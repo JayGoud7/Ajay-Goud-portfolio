@@ -53,8 +53,8 @@ const Section2 = () => {
   })
 
   return (
-    <section className='enlargediv1 w-full h-[30vh] md:h-screen flex items-center justify-around md:justify-around flex-col text-white bg-[#0E090E]'>
-      <div className='enlarge md:max-w-[70vw] md:h-[50vh] w-[70vw] h-[15vh] border-[0.002vw] rounded-[3vw] flex md:mt-10 md:items-center items-center justify-evenly md:px-[9vw] md:py-[7vw] flex-col'>
+    <section className='enlargediv1 w-full flex items-center justify-around md:justify-around flex-col text-white bg-[#0E090E]'>
+      <div className='enlarge md:max-w-[70vw]  w-[70vw]  border-[0.002vw] rounded-[3vw] flex md:mt-10 md:items-center items-center justify-evenly md:px-[9vw] md:py-[7vw] flex-col'>
         <h2 className='md:text-[1vw] text-[2vw] font-[200] txtani4'>Looking for a new talent</h2>
         <h1 className='md:text-[3vw] text-[2.5vw] font-[200] txtani4'>ajaygoud057@gmail.com</h1>
         <ul className='flex md:gap-20 gap-3 md:mt-7 font-[200] txtani4'>

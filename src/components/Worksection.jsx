@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 const obj = [
   {
     id: 1,
-    name: "IMDB clone",
+    name: "Rental.com",
     img: "https://ajaygoud-portfolio.vercel.app/static/media/img.076bbb8766fd657835d2.png",
     link: "https://rentalcom.netlify.app/",
   },
   {
     id: 2,
-    name: "Rental.com",
+    name: "IMDB clone",
     img: "https://ajaygoud-portfolio.vercel.app/static/media/img2.a41e4e217ad9cadf5c83.png",
     link: "https://imdbcl.netlify.app/",
   },
