@@ -7,10 +7,17 @@ import About from './components/aboutpage/About';
 import Workpage from './components/WorkPage/Workpage';
 import { AnimatePresence } from 'framer-motion';
 import Cursor from './components/Cursor';
+import { useEffect } from "react";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
-  const location  = useLocation()
+  const location  = useLocation();
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "//code.tidio.co/1n1m9nblz1mn1e5j9f46d0dz2n5apn9z.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
 
   return (  
    
