@@ -20,14 +20,15 @@ function App() {
   // }, []);
 
   useEffect(() => {
-    window.CollectId = "68417abd4c2ef40c809da743";
-    const script = document.createElement("script");
-    script.type = "text/javascript";
-    script.async = true;
-    script.src = "https://collectcdn.com/launcher.js";
-
-    const head = document.head || document.getElementsByTagName("head")[0];
-    head.appendChild(script);
+    (function (w, d) {
+      w.CollectId = "68417abd4c2ef40c809da743";
+      const h = d.head || d.getElementsByTagName("head")[0];
+      const s = d.createElement("script");
+      s.setAttribute("type", "text/javascript");
+      s.async = true;
+      s.setAttribute("src", "https://collectcdn.com/launcher.js");
+      h.appendChild(s);
+    })(window, document);
   }, []);
 
   return (  
