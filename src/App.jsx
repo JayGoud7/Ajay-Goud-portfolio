@@ -12,11 +12,22 @@ import { useEffect } from "react";
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   const location  = useLocation();
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.src = "//code.tidio.co/1n1m9nblz1mn1e5j9f46d0dz2n5apn9z.js";
+  //   script.async = true;
+  //   document.body.appendChild(script);
+  // }, []);
+
   useEffect(() => {
+    window.CollectId = "68417abd4c2ef40c809da743";
     const script = document.createElement("script");
-    script.src = "//code.tidio.co/1n1m9nblz1mn1e5j9f46d0dz2n5apn9z.js";
+    script.type = "text/javascript";
     script.async = true;
-    document.body.appendChild(script);
+    script.src = "https://collectcdn.com/launcher.js";
+
+    const head = document.head || document.getElementsByTagName("head")[0];
+    head.appendChild(script);
   }, []);
 
   return (  
