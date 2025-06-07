@@ -20,15 +20,15 @@ function App() {
   // }, []);
 
   useEffect(() => {
-    (function (w, d) {
-      w.CollectId = "68417abd4c2ef40c809da743";
-      const h = d.head || d.getElementsByTagName("head")[0];
-      const s = d.createElement("script");
-      s.setAttribute("type", "text/javascript");
-      s.async = true;
-      s.setAttribute("src", "https://collectcdn.com/launcher.js");
-      h.appendChild(s);
-    })(window, document);
+    const s1 = document.createElement("script");
+    s1.type = "text/javascript";
+    s1.async = true;
+    s1.src = "https://embed.tawk.to/6843c62ed35f80190a9bfe1d/1it4bsark";
+    s1.charset = "UTF-8";
+    s1.setAttribute("crossorigin", "*");
+
+    const s0 = document.getElementsByTagName("script")[0];
+    s0.parentNode.insertBefore(s1, s0);
   }, []);
 
   return (  
